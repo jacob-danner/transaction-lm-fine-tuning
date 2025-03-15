@@ -1,3 +1,6 @@
+# Other
+.env
+
 # Python-generated files
 __pycache__/
 *.py[oc]
@@ -9,5 +12,5 @@ wheels/
 # Virtual environments
 .venv
 
-# dataset/
-dataset/*.json
+# src
+src/dataset/*.json

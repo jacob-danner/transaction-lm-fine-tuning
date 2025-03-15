@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "accelerate>=1.5.2",
     "datasets>=3.4.0",
     "pandas>=2.2.3",
     "pydantic-settings>=2.8.1",

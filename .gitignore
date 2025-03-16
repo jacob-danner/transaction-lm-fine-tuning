@@ -14,4 +14,3 @@ wheels/
 
 # src
 src/dataset/*.json
-src/models/train/output_dir

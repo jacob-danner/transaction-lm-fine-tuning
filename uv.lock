@@ -1619,6 +1619,27 @@ wheels = [
 ]
 
 [[package]]
+name = "peft"
+version = "0.15.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "accelerate" },
+    { name = "huggingface-hub" },
+    { name = "numpy" },
+    { name = "packaging" },
+    { name = "psutil" },
+    { name = "pyyaml" },
+    { name = "safetensors" },
+    { name = "torch" },
+    { name = "tqdm" },
+    { name = "transformers" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c2/39/c6f7464cb137f7ffbffe9fd36d8b8b8feefb4e66390a372722d2f693e7d1/peft-0.15.0.tar.gz", hash = "sha256:6f0ac2f98d57a8b6ee49cef9f193a9d9d2beb9ac6347bdb995d306045a6bc6b0", size = 470909 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c3/0a/01efce80e60ce8b11adc90ac9077e4fe3b0fa2f4b03aa459206588e8f7bc/peft-0.15.0-py3-none-any.whl", hash = "sha256:0dc90d13c6c111f4f9d3df5c7a34fcec5eee6f19713159622a5d9aacf3c670c6", size = 410774 },
+]
+
+[[package]]
 name = "pexpect"
 version = "4.9.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2434,6 +2455,7 @@ dependencies = [
     { name = "openai" },
     { name = "optuna" },
     { name = "pandas" },
+    { name = "peft" },
     { name = "pydantic-settings" },
     { name = "torch" },
     { name = "transformers" },
@@ -2454,6 +2476,7 @@ requires-dist = [
     { name = "openai", specifier = ">=1.68.2" },
     { name = "optuna", specifier = ">=4.2.1" },
     { name = "pandas", specifier = ">=2.2.3" },
+    { name = "peft", specifier = ">=0.15.0" },
     { name = "pydantic-settings", specifier = ">=2.8.1" },
     { name = "torch", specifier = ">=2.6.0" },
     { name = "transformers", specifier = ">=4.49.0" },

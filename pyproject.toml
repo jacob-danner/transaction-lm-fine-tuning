@@ -7,9 +7,10 @@ requires-python = ">=3.12"
 dependencies = [
     "accelerate>=1.5.2",
     "datasets>=3.4.0",
+    "openai>=1.68.2",
     "optuna>=4.2.1",
     "pandas>=2.2.3",
-    "peft>=0.14.0",
+    "peft>=0.15.0",
     "pydantic-settings>=2.8.1",
     "torch>=2.6.0",
     "transformers>=4.49.0",

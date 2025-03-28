@@ -7,6 +7,7 @@ class Settings(BaseSettings):
     gpt_1_causal_finetune: str
     gemma_3_1b_causal_finetune: str
     gemma_3_1b_causal_finetune_lora: str
+    gpt_1_sequence_classification: str
     device: str
 
     class Config:

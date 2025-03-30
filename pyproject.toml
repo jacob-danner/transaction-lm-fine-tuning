@@ -10,10 +10,10 @@ dependencies = [
     "openai>=1.68.2",
     "optuna>=4.2.1",
     "pandas>=2.2.3",
-    "peft>=0.15.0",
     "pydantic-settings>=2.8.1",
     "torch>=2.6.0",
-    "transformers>=4.49.0",
+    "transformers @ git+https://github.com/huggingface/transformers.git",
+    "peft @ git+https://github.com/huggingface/peft.git"
 ]
 
 [dependency-groups]

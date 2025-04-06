@@ -9,6 +9,7 @@ This repository is a workspace for fine-tuning language models to classify perso
     - Training set: 674 examples
     - Test set: 193 examples
     - Total: 867 examples
+        - 93,603 tokens (average example len = 97.8 tokens)
 - __Task:__ The objective is multi-class classification – predicting the correct personal budget category (`from_account`) for each transaction.
 - __Input Features:__
     - `transaction_date`
@@ -75,7 +76,7 @@ The superior performance of Sequence Classification compared to the Causal LM ap
 ## Repository Structure
 
 - `src/models/`: Contains Python scripts or notebooks for fine-tuning and evaluating each model/approach
-- `src/dataset/`: Analysis of non-sensitive aspects of the dataset, such as class distribution.
+- `src/dataset/`: Analysis of non-sensitive aspects of the dataset, such as class distribution, token count, and more.
 - `src/dataset/notes/`: Includes code snippets and reflections related to specific ML techniques explored during the project (e.g., LoRA, bfloat16 precision, MPS hardware acceleration).
 
 ## Related Work

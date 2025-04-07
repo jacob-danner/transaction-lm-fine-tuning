@@ -14,4 +14,4 @@ wheels/
 
 # src
 src/dataset/*.json
-src/dataset/*
+src/dataset/construct/*

@@ -1620,8 +1620,8 @@ wheels = [
 
 [[package]]
 name = "peft"
-version = "0.15.0"
-source = { registry = "https://pypi.org/simple" }
+version = "0.15.2.dev0"
+source = { git = "https://github.com/huggingface/peft.git#2ee02af9d445cda0410c43a6e72160df59ad971c" }
 dependencies = [
     { name = "accelerate" },
     { name = "huggingface-hub" },
@@ -1633,10 +1633,6 @@ dependencies = [
     { name = "torch" },
     { name = "tqdm" },
     { name = "transformers" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/c2/39/c6f7464cb137f7ffbffe9fd36d8b8b8feefb4e66390a372722d2f693e7d1/peft-0.15.0.tar.gz", hash = "sha256:6f0ac2f98d57a8b6ee49cef9f193a9d9d2beb9ac6347bdb995d306045a6bc6b0", size = 470909 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/c3/0a/01efce80e60ce8b11adc90ac9077e4fe3b0fa2f4b03aa459206588e8f7bc/peft-0.15.0-py3-none-any.whl", hash = "sha256:0dc90d13c6c111f4f9d3df5c7a34fcec5eee6f19713159622a5d9aacf3c670c6", size = 410774 },
 ]
 
 [[package]]
@@ -2476,10 +2472,10 @@ requires-dist = [
     { name = "openai", specifier = ">=1.68.2" },
     { name = "optuna", specifier = ">=4.2.1" },
     { name = "pandas", specifier = ">=2.2.3" },
-    { name = "peft", specifier = ">=0.15.0" },
+    { name = "peft", git = "https://github.com/huggingface/peft.git" },
     { name = "pydantic-settings", specifier = ">=2.8.1" },
     { name = "torch", specifier = ">=2.6.0" },
-    { name = "transformers", specifier = ">=4.49.0" },
+    { name = "transformers", git = "https://github.com/huggingface/transformers.git" },
 ]
 
 [package.metadata.requires-dev]
@@ -2492,8 +2488,8 @@ dev = [
 
 [[package]]
 name = "transformers"
-version = "4.49.0"
-source = { registry = "https://pypi.org/simple" }
+version = "4.51.0.dev0"
+source = { git = "https://github.com/huggingface/transformers.git#348f3285c5114159d2ff4933b4b8ae36866d01a7" }
 dependencies = [
     { name = "filelock" },
     { name = "huggingface-hub" },
@@ -2505,10 +2501,6 @@ dependencies = [
     { name = "safetensors" },
     { name = "tokenizers" },
     { name = "tqdm" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/79/50/46573150944f46df8ec968eda854023165a84470b42f69f67c7d475dabc5/transformers-4.49.0.tar.gz", hash = "sha256:7e40e640b5b8dc3f48743f5f5adbdce3660c82baafbd3afdfc04143cdbd2089e", size = 8610952 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/20/37/1f29af63e9c30156a3ed6ebc2754077016577c094f31de7b2631e5d379eb/transformers-4.49.0-py3-none-any.whl", hash = "sha256:6b4fded1c5fee04d384b1014495b4235a2b53c87503d7d592423c06128cbbe03", size = 9970275 },
 ]
 
 [[package]]
